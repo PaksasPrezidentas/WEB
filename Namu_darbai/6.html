@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Apklausa</title>
+  </head>
+  <body>
+    <fieldset>
+       <legend>Jusu informacija</legend>
+      <form>
+ Vardas:
+ <input type="text" name="name"><br>
+ Pastas:
+ <input type="text" name="email">
+</form>
+    </fieldset>
+    <br />
+    <fieldset>
+       <legend>Apzvalga</legend>
+      <form>
+        <p>Kaip isgirdote apie mus?</p>
+        <select name="kaip">
+        <option value="Google">Google</option>
+        <option value="Yahoo">Yahoo</option>
+        <option value="Kita">Kita</option>
+      </select>
+      <p>Ar apsilankysite vel?</p>
+      <input type="radio" name="Taip" value="Taip"> Taip
+      <input type="radio" name="Ne" value="Ne"> Ne
+      <input type="radio" name="Other" value="other"> Kita
+      <p>Komentaras:</p>
+      <textarea name="zinute" rows="10" cols="30"></textarea>
+<br />
+        <input type="checkbox" name="naujienos" checked>Uzsakykite naujienas<br>
+         <button type="button" onclick="alert('Issiusta')">Saugoti</button>
+</form>
+    </fieldset>
+  </body>
+</html>
